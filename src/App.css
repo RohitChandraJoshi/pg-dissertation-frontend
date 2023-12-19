@@ -1,0 +1,105 @@
+/* App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  display: flex;
+}
+
+.sidebar {
+  background-color: #333;
+  color: #fff;
+  width: 200px;
+  height: 100vh;
+  padding-top: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 8px;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+.sidebar a:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+/* Additional Styling (Modify as needed) */
+
+h1 {
+  color: #333;
+}
+
+/* Add more styles for your components if necessary */
+.app-container {
+  display: flex;
+}
+
+.sidebar {
+  width: 0;
+  overflow: hidden;
+  transition: width 0.3s ease;
+}
+
+.sidebar ul {
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar li {
+  padding: 10px;
+}
+
+.toggle-button {
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.line {
+  width: 25px;
+  height: 3px;
+  background-color: #333; /* Adjust the color as needed */
+  margin: 4px 0;
+}
+
+.show-sidebar .sidebar {
+  width: 200px;
+}
+.toggle-button {
+  cursor: pointer;
+  padding: 5px; /* Adjust the padding as needed */
+  transition: transform 0.3s ease;
+}
+
+.toggle-icon {
+  width: 20px; /* Adjust the width as needed */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+
+

@@ -1,0 +1,45 @@
+/* LeaderboardComponent.css */
+
+.leaderboard {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px 0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: calc(100% - 240px); /* Adjust the margin and width accordingly */
+  /* position: fixed; */
+  bottom: 0;
+  left: 240px; /* Adjust according to the width of the navbar */
+  z-index: 1; /* Ensure the leaderboard is above other content */
+}
+
+.leaderboard h2 {
+  color: #333;
+}
+
+.leaderboard table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+
+.leaderboard th,
+.leaderboard td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.leaderboard th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.leaderboard a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.leaderboard a:hover {
+  text-decoration: underline;
+}

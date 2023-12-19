@@ -1,0 +1,40 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.statistics {
+  display: flex;
+  gap: 20px;
+}
+
+.stat {
+  background-color: #4285F4;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.chart-container {
+  width: 80%; /* Adjust the width as needed */
+  max-width: 600px; /* Set a maximum width for the chart */
+}
+
+.chart-container canvas {
+  max-width: 100%; /* Make sure the canvas doesn't exceed its container's width */
+}
+
+.chart-container {
+  width: 30%; /* Adjust the width as needed */
+}
+
+.rounded-rectangle {
+  background-color: #4285F4;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
